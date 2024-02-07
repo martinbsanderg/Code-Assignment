@@ -33,7 +33,6 @@ export const FormulaInput = () => {
 
   return (
     <>
-      <h3>Input</h3>
       <div className="input-wrapper">
         <TextField
           error={error}
@@ -53,13 +52,13 @@ export const FormulaInput = () => {
           Calculate
         </Button>
       </div>
-      <h3> Result</h3>
+
       <TextField
         type="text"
         value={calcRes.length <= 0 ? "Waiting for results..." : calcRes}
         variant="outlined"
         inputProps={{ readOnly: true }}
-        sx={{ width: "600px" }}
+        sx={{ width: "600px", marginTop: "24px" }}
         multiline
         rows={3}
       />

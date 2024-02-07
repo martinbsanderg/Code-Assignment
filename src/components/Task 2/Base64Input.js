@@ -39,7 +39,6 @@ export const Base64Input = () => {
 
   return (
     <>
-      <h3>Input</h3>
       <div className="input-wrapper">
         <TextField
           error={error}
@@ -59,9 +58,9 @@ export const Base64Input = () => {
           Encode
         </Button>
       </div>
-      <h3> Result </h3>
+
       <TextField
-        sx={{ width: "600px" }}
+        sx={{ width: "600px", marginTop: "24px" }}
         type="text"
         value={codeRes.length <= 0 ? "Waiting for results..." : codeRes}
         variant="outlined"

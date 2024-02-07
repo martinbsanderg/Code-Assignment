@@ -1,0 +1,10 @@
+.header {
+  top: 0; /* Aligns the header at the top */
+  width: 100%; /* Ensures the header stretches across the full viewport width */
+  background-color: #333; /* Gives the header a background color */
+  color: white; /* Text color */
+  text-align: left; /* Centers the text within the header */
+  padding: 10px 0; /* Adds some padding above and below the text */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow to the header for better separation from the page content */
+  z-index: 1000; /* Ensures the header stays above other content */
+}

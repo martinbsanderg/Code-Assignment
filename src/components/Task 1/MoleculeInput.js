@@ -58,7 +58,7 @@ export const FormulaInput = () => {
         value={calcRes.length <= 0 ? "Waiting for results..." : calcRes}
         variant="outlined"
         inputProps={{ readOnly: true }}
-        sx={{ width: "600px", marginTop: "24px" }}
+        sx={{ width: "600px", marginTop: "16px" }}
         multiline
         rows={3}
       />

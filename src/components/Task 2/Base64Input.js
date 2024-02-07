@@ -60,7 +60,7 @@ export const Base64Input = () => {
       </div>
 
       <TextField
-        sx={{ width: "600px", marginTop: "24px" }}
+        sx={{ width: "600px", marginTop: "16px" }}
         type="text"
         value={codeRes.length <= 0 ? "Waiting for results..." : codeRes}
         variant="outlined"
